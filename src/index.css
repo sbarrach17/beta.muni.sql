@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* font-family: "Merriweather Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.App{
+  width: 100%;
+  height: 100vh;
+}
+.containerDashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+p {
+  font-weight: 500;
+}
+.contrato-item {
+  padding: 1rem;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 1rem;
+  width: 500px;
+  background-color: whitesmoke;
+}
+li {
+  list-style: none;
+}
+.icon{
+  width: 50px;
+  height: 25px;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+.contrato-list {
+  width: 80%;
+}
+
+.detalle-contrato {
+  width: 100%;
+  /* height: 100vh; */
+  padding-left: 50px;
+  /* background-color: rgba(233, 200, 139, 0.616); */
+  /* border-radius: 10px; */
+}
+.agregar{
+  width: 50%;
+  background-color: rgba(233, 200, 139, 0.616);
+  margin-left: 50px;
+}
+
+.containerForm{
+  /* background-color: red; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.divForm{
+  padding-top: 3rem;
+  width: 90%;
+  height: 100vh;
+}
+.formulario{
+  width: 80%;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+.btn-group{
+  display: flex;
+  justify-content: center;
+}
+

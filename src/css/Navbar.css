@@ -1,0 +1,8 @@
+.navbar{
+    background: linear-gradient(90deg, rgb(5, 25, 56) 0%, rgb(80, 36, 75) 100%);
+}
+.logo{
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+}
